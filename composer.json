@@ -10,7 +10,7 @@
 	"require": {
 		"php": ">=5.4.0"
 	},
-	"homepage": "https://github.com/denmercs",
+	"homepage": "https://github.com/imranhsayed/aquila-features",
 	"require-dev": {
 		"wp-coding-standards/wpcs": "^2.3",
 		"phpcompatibility/phpcompatibility-wp": "^2.1"
@@ -22,13 +22,13 @@
 	},
     "authors": [
         {
-            "name": "Dennis Mercado",
-            "email": "denmercs@gmail.com"
+            "name": "Imran Sayed",
+            "email": "codeytek.academy@gmail.com"
         }
     ],
 	"autoload": {
 		"psr-4": {
-			"WordpressPlugin\\": "src/"
+			"AquilaFeatures\\": "src/"
 		}
 	}
 }

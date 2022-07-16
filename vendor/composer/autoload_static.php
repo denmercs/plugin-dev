@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit406acd7f8f647efdc00d29293480ca77
+class ComposerStaticInit21e088846f284201ed0e28317d3c7f37
 {
     public static $prefixLengthsPsr4 = array (
-        'D' => 
+        'A' => 
         array (
-            'Denme\\WordpressPlugin\\' => 22,
+            'AquilaFeatures\\' => 15,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Denme\\WordpressPlugin\\' => 
+        'AquilaFeatures\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit406acd7f8f647efdc00d29293480ca77
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit406acd7f8f647efdc00d29293480ca77::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit406acd7f8f647efdc00d29293480ca77::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit406acd7f8f647efdc00d29293480ca77::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit21e088846f284201ed0e28317d3c7f37::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit21e088846f284201ed0e28317d3c7f37::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit21e088846f284201ed0e28317d3c7f37::$classMap;
 
         }, null, ClassLoader::class);
     }

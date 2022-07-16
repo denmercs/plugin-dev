@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Denme\\WordpressPlugin\\' => array($baseDir . '/src'),
+    'AquilaFeatures\\' => array($baseDir . '/src'),
 );
